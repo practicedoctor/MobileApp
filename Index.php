@@ -8,6 +8,8 @@
 </head>
 
 <body>
+<?php
+?>
 <div>
 	<img class='logo' src='Logo.png' />
 	<form action='j_security_check' class='login'>
