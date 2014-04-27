@@ -3,7 +3,7 @@ function getMedication() {
 		medicationDIV = document.getElementById("medicationDIV");
 		$.ajax({
 				type: "GET",
-				url: "http://cse-ilab-08.unl.edu:8282/patient/services/patient_info/",
+				url: "patientData.xml",
 				dataType: "xml",
 				success: function(xml){
 					$(xml).find('rcopiaMedications').each(function(inside){
