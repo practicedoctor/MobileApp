@@ -5,7 +5,7 @@ function getAppointments() {
 	var otherDate = new Date();
 		$.ajax({
 				type: "GET",
-				url: "http://cse-ilab-08.unl.edu:8282/patient/services/patient_appointment/",
+				url: "patientAppointment.xml",
 				dataType: "xml",
 				success: function(xml){
 					$(xml).find('appointment').each(function(){
